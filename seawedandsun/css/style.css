@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:active,
+ :hover,
+ :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    background: url(../image/header-background-img.svg) no-repeat;
+    background-position: top;
+    background-size: contain;
+    /* background: firebrick; */
+}
+
+html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(73, 96, 113);
+}
+
+.wrapper {
+    width: 1095px;
+    margin: 0 auto;
+    padding: 0;
+    min-height: 100%;
+}
+
+header {
+    width: 100%;
+    top: 35px;
+    position: absolute;
+    z-index: 100000000000000000000;
+}
+
+.fixed {
+    top: 0;
+    position: fixed;
+    height: 75px;
+    transition: all .8s;
+    background: #f9e5dd;
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, .15);
+}
+
+.newHeaderDisplaySize {
+    height: 75px;
+}
+
+.newlogoSize {
+    position: relative;
+    top: 2px;
+    width: 71px;
+    filter: invert(24%) sepia(100%) saturate(3000%) brightness(100%) contrast(100%);;
+}
+
+.newMenuContainerPosition {
+    position: relative;
+    top: 25px;
+}
+
+.headerDisplay {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: stretch;
+    z-index: 10000;
+}
+
+.active {
+    background-color: rgb(249, 229, 221)
+}
+
+.menuContainer {
+    list-style-type: none;
+    color: rgb(73, 96, 113);
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+}
+
+.menu-list {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+li {
+    margin: 0 0 0 37px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li a:hover {
+    color: #f0c8b9;
+    transition: .3s linear;
+}
+
+.language {
+    position: relative;
+    top: 2px;
+    list-style-type: none;
+    margin: 0 0 0 10px;
+}
+
+.french {
+    margin: 0 0 0 21px;
+}
+
+.content-container {
+    position: relative;
+    top: 610px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    padding-bottom: 685px;
+}
+
+.the-concept {
+    position: relative;
+    left: 15px;
+    line-height: 1.3;
+    padding-bottom: 260px;
+}
+
+.COOL-WEDDING {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.9em;
+    color: white;
+}
+
+.EVENT-PLANNER {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    color: #cacbcb;
+}
+
+.cool-weddings {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+    padding-bottom: 22px;
+}
+
+.cool-weddings-img {
+    position: relative;
+    left: 2px;
+}
+
+.txt {
+    max-width: 504px;
+}
+
+.head {
+    position: relative;
+    right: 3px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5em;
+    color: #7398aa;
+}
+
+.description {
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    color: #b3b3b3;
+}
+
+.know-more a {
+    font-family: 'Lato', sans-serif;
+    line-height: 2.4;
+    color: #f0c8b9;
+}
+
+.crazy-elopements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+    padding-bottom: 5px;
+}
+
+.boho-wedding-proposals {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+}
+
+.boho-wedding-proposals-img {
+    position: relative;
+    right: 7px;
+}
+
+.content-1 {
+    padding-bottom: 201px;
+}
+
+.what-is-sea {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+    position: relative;
+    top: -41px;
+    padding: 0;
+    margin: 0;
+}
+
+.sea-background {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.what-is-sea-img {
+    position: relative;
+    right: 179px;
+}
+
+.txt2 {
+    max-width: 371px;
+}
+
+.txt3 {
+    max-width: 609px;
+    position: relative;
+    left: 486px;
+}
+
+.why-marry-abroad {
+    position: relative;
+    top: -41px;
+    padding-bottom: 192px;
+}
+
+.gallery {
+    position: relative;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.sl-background-img {
+    position: absolute;
+    top: 120px;
+    margin: 0 auto;
+    z-index: -1;
+}
+
+.sl-img {
+    -webkit-mask-repeat: no-repeat;
+}
+
+.masked-img {
+    padding-bottom: 19px;
+    margin: 0 auto;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.prev {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    display: block;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    display: block;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.sl {
+    background: url(../image/gallery-background.svg) no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.slick-list,
+.slick-track {
+    height: 100%;
+}
+
+.headgtxt {
+    padding-bottom: 61px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5em;
+    color: #7398aa;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.footer-back-position {
+    position: relative;
+}
+
+.footer-back-low {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #f9e5dd;
+    top: 252px;
+}
+
+.footer-container-elements-position {
+    position: absolute;
+    top: 170px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    padding-bottom: 52px;
+}
+
+.footer-elements {
+    max-width: 360px;
+}
+
+.gmaps-txt {
+    color: #87abb8;
+}
+
+.gmaps-img {
+    position: relative;
+    top: 3px;
+}
+
+.copyright {
+    color: #87abb8;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.social-img {
+    display: inline-flex;
+}
+
+.icon {
+    margin: 0 12px 0 0;
+}

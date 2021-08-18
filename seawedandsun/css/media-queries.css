@@ -1,0 +1,105 @@
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .header {
+        display: none;
+    }
+    .wrapper {
+        width: 320px;
+    }
+    .content-container {
+        top: 100px;
+    }
+    .the-concept {
+        max-width: 50%;
+        left: 25%;
+        right: 0;
+        line-height: 1;
+        font-size: 30%;
+        padding-bottom: 25px;
+    }
+    .media-queries {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+    }
+    .content-img {
+        max-width: 320px;
+    }
+    .cool-weddings-img {
+        left: 0;
+    }
+    .boho-wedding-proposals-img {
+        right: 0;
+    }
+    .what-is-sea-img {
+        right: 0;
+    }
+    .txt3 {
+        left: 0;
+    }
+    .content-1 {
+        padding-bottom: 50px;
+    }
+    .why-marry-abroad {
+        padding-bottom: 50px;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+    }
+    .content-container {
+        padding-bottom: 125px;
+        font-size: 80%;
+    }
+    .footer-back-low {
+        top: 50px;
+    }
+    .footer-container-elements-position {
+        top: 28px;
+        font-size: 80%;
+    }
+    .footer-back-low {
+        height: 500px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {}
+
+@media only screen and (min-width: 1366px) {
+    .logo {
+        position: relative;
+        width: 14%;
+        top: -13px;
+        left: 13%;
+    }
+    .newlogoSize {
+        width: 6%;
+        top: 6px;
+    }
+    .content-container {
+        top: 420px;
+    }
+    .what-is-sea-img {
+        width: 50%;
+    }
+    .wrapperForGallery {
+        width: 950px;
+    }
+    .sl {
+        background-size: 110%;
+    }
+    .sl-img {
+        -webkit-mask-size: 200px;
+    }
+    .masked-img {
+        padding: 0;
+        margin: 0;
+        margin-bottom: -60px;
+    }
+}
